@@ -7,7 +7,7 @@ let sendForm = document.getElementById('send-form');
 let inputField = document.getElementById('input');
 
 // Helpers
-let defaultDeviceName = 'Terminal';
+let defaultDeviceName = 'Terminal v0.0';
 let terminalAutoScrollingLimit = terminalContainer.offsetHeight / 2;
 let isTerminalAutoScrolling = true;
 
