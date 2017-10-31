@@ -47,12 +47,12 @@ terminal.receive = function(data) {
 };
 
 // Override default log method to output messages to the terminal and console
-// terminal._log = function(...messages) {
-//     // We cannot use `super._log()` here
-//     messages.forEach(message => {
-//         console.log(message);
-//     });
-// };
+terminal._log = function(...messages) {
+    // We cannot use `super._log()` here
+    messages.forEach(message => {
+        console.log(message);
+    });
+};
 
 // Implement own send function to log outcoming data to the terminal
 function send(data) {
