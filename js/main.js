@@ -50,7 +50,7 @@ terminal.receive = function(data) {
 terminal._log = function(...messages) {
     // We cannot use `super._log()` here
     messages.forEach(message => {
-        let msg = document.createElement('p')
+        let p = document.createElement('p')
         p.innerText = message;
         document.body.appendChild(p);
     });
