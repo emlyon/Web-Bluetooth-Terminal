@@ -93,6 +93,6 @@ disconnectButton.addEventListener('click', function() {
 
 addEventListener('load', e => {
     mobileConsole.init();
-    console.log('v0.2');
-    console.log('no sw.js');
+    console.log('v0.3');
+    console.log('sw.js back');
 });
