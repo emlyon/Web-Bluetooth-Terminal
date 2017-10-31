@@ -84,3 +84,7 @@ terminalContainer.addEventListener('scroll', function() {
 
   isTerminalAutoScrolling = (scrollTopOffset < terminalContainer.scrollTop);
 });
+
+addEventListener( 'load', e => {
+    logToTerminal( 'no sw.js' );
+} );
